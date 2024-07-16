@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: white;
+}
+
+#Nav{
+  background-color: #F1F1F1;
+  width: 500px;
+  height: max-content;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  border-radius: 30px;
+  position: fixed;
+  z-index: 10000 !important;
+}
+
+#navItems{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavItem{
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 120px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: rgb(14,16,18);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: all 0.5s ease;
+  font-size: 17px;
+}
+
+
+
+svg {
+  width: 20px;
+  position: relative;
+  top: 10%;
+  left: -5%;
+}
+
+#SelectedItem{
+  background-color: white;
+  color: #007Aff;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.NavItem:hover{
+  background-color: #fdfdfd;
+  color: rgb(105, 105, 105)
+}
+
+#HeroVid{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 1000px;
+  -webkit-appearance: none;
+}
+
+video::-webkit-media-controls {
+  display: none !important; /* Remove controls in Safari */
+}
+
+video::-webkit-media-controls-enclosure {
+  display: none !important; /* Remove controls in Safari */
+}
+
+.Blue{
+  color: #007Aff;
+}
+
+#subtext{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+#ButtonContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 30px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#StartButton a{
+  text-decoration: none;
+}
+
+
+#StartButton{
+  display: flex;
+  font-size: 17px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 5px;
+  border-radius: 30px;
+  width: 150px;
+  margin: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #007Aff;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+#StartButton:hover{
+  width: 170px;
+  margin: 0px;
+  font-size: 19px;
+}
+
+
+/*
+
+#StartButton{
+  display: flex;
+  font-size: 17px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 5px;
+  border-radius: 30px;
+  width: 150px;
+  border: 2px solid #007Aff;
+  transition: all 0.5s ease;
+}
+
+#StartButton:hover{
+  color: white;
+  background-color: #007Aff;
+}
+
+#StartButton:hover .Blue{
+  color: white;
+}
+
+*/
+a{
+  text-decoration: none;
+}
